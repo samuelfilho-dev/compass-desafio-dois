@@ -1,0 +1,30 @@
+#dark-header {
+    background-color: var(--dark-background-color);
+    color: var(--white-color-text);
+    font-weight: bold;
+    display: flex;
+    height: 46px;
+    align-items: center;
+}
+
+#middle-phase {
+    justify-content: space-between;
+    margin: auto;
+}
+
+#follow-logos {
+    display: inline-flex;
+    gap: 0.625rem;
+    margin-right: 1.875rem;
+    align-items: center;
+}
+
+.header-contact-area {
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 1.25rem;
+    gap: 0.625rem;
+}
+
+
