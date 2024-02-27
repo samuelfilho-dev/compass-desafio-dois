@@ -19,6 +19,45 @@
     align-items: center;
 }
 
+#navbar {
+    height: 58px;
+    display: flex;
+    align-items: center;
+    gap: 0.625rem;
+}
+
+#left-navbar {
+    margin-left: auto;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    gap: 0.313rem;
+}
+
+#slogan {
+    font-weight: 700;
+    font-size: 24px;
+    color: var(--dark-background-color);
+    margin-left: 1.25rem;
+}
+
+#shop-link a {
+    color: var(--dark-background-color);
+    font-weight: 700;
+    font-size: 14px;
+}
+
+#register-text {
+    font-weight: 700;
+}
+
+#icons-left-navbar {
+    display: flex;
+    align-items: center;
+    gap: 1.563rem;
+    margin: 0 20px;
+}
+
 .header-contact-area {
     display: inline-flex;
     justify-content: space-between;
@@ -27,4 +66,27 @@
     gap: 0.625rem;
 }
 
+.navbar-links {
+    margin-left: 3.75rem;
+    display: flex;
+    align-items: center;
+    gap: 0.625rem;
+}
 
+.navbar-links a {
+    color: var(--second-color-text);
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.text-left-navbar {
+    color: var(--clen-blue-text);
+    font-weight: 400;
+    font-size: 12px;
+}
+
+.dynamic-icons {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.313rem;
+}
