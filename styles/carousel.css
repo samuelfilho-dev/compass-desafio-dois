@@ -1,9 +1,28 @@
 #carousel {
-    position: relative;
     margin: 0 auto;
     width: 100%;
-    height: 100%;
+    height: 40rem;
+    padding: 0;
     overflow: hidden;
+}
+
+#carrousel-content {
+    width: 400%;
+    height: auto;
+    display: flex;
+    overflow: hidden;
+}
+
+#carrousel-slide {
+    width: 25%;
+    height: auto;
+    position: relative;
+    text-align: center;
+}
+
+#carrousel-slide img {
+    width: 100%;
+    object-fit: cover;
 }
 
 #chevrons {
@@ -20,13 +39,14 @@
     position: absolute;
     top: 50%;
     right: -5%;
+    margin-left: 10px;
 }
 
 #carrousel-info {
     color: var(--white-color-text);
     position: absolute;
     bottom: 25%;
-    left: 20%;
+    left: 15%;
 }
 
 #collection-clothes {
@@ -59,7 +79,6 @@
     font-weight: 700;
     font-size: 24px;
     text-transform: uppercase;
-    padding: 15px 40px;
 }
 
 #first-captions {
