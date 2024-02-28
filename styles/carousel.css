@@ -1,0 +1,82 @@
+#carousel {
+    position: relative;
+    margin: 0 auto;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+#chevrons {
+    display: inline-flex;
+    justify-content: space-between;
+}
+
+#chevron-left {
+    position: absolute;
+    top: 50%;
+}
+
+#chevron-right {
+    position: absolute;
+    top: 50%;
+    right: -5%;
+}
+
+#carrousel-info {
+    color: var(--white-color-text);
+    position: absolute;
+    bottom: 25%;
+    left: 20%;
+}
+
+#collection-clothes {
+    font-weight: 700;
+    font-size: 16px;
+    text-transform: uppercase;
+    margin-bottom: 2.5rem;
+}
+
+#title-info {
+    font-weight: 700;
+    font-size: 58px;
+    text-transform: uppercase;
+    margin-bottom: 2.5rem;
+}
+
+#phase-info {
+    width: 376px;
+    height: 40px;
+    font-weight: 400;
+    font-size: 20px;
+    margin-bottom: 2.5rem;
+}
+
+#marketplace-button {
+    width: 221px;
+    height: 62px;
+    background-color: var(--button-color);
+    color: var(--white-color-text);
+    font-weight: 700;
+    font-size: 24px;
+    text-transform: uppercase;
+    padding: 15px 40px;
+}
+
+#first-captions {
+    position: absolute;
+    width: 63px;
+    height: 10px;
+    background-color: rgba(255, 255, 255, 0.5);
+    bottom: 1px;
+    left: 50%;
+}
+
+#second-captions {
+    position: absolute;
+    width: 63px;
+    height: 10px;
+    background-color: rgba(255, 255, 255, 1);
+    left: 53%;
+    bottom: 1px;
+    margin-left: 10px;
+}
