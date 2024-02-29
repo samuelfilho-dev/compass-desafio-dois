@@ -1,81 +1,126 @@
-#carousel {
-    display: flex;
-    height: 716px;
-    overflow: hidden;
+#container-fluid {
+    width: 1292px;
+    height: 622px;
+    top: 58px;
+    left: 75px;
+    border-radius: 20px;
+    background: linear-gradient(90deg, rgba(150, 233, 251, 1) 35%, rgba(171, 236, 214, 1) 100%);
+    position: relative;
 }
 
-
-#chevrons {
-    display: inline-flex;
-    justify-content: space-between;
-}
-
-#chevron-left {
+#headline-info {
     position: absolute;
-    top: 50%;
+    width: 548px;
+    height: 316px;
+    top: 30px;
+    left: 120px;
+    margin-top: 90px;
 }
 
-#chevron-right {
-    position: absolute;
-    top: 50%;
-    right: -5%;
-    margin-left: 10px;
-}
-
-#carrousel-info {
-    color: var(--white-color-text);
-    position: absolute;
-    bottom: 25%;
-    left: 15%;
-}
-
-#collection-clothes {
+#clothes-collection {
     font-weight: 700;
     font-size: 16px;
-    text-transform: uppercase;
-    margin-bottom: 2.5rem;
+    width: 122px;
+    height: 24px;
+    color: var(--blue-text-color);
+    margin-bottom: 30px;
 }
 
-#title-info {
+#headline {
+    width: 600px;
+    height: 80px;
     font-weight: 700;
     font-size: 58px;
-    text-transform: uppercase;
-    margin-bottom: 2.5rem;
+    color: var(--dark-text-color);
+    margin-bottom: 60px;
 }
 
-#phase-info {
+#headline-phase {
     width: 376px;
-    height: 40px;
+    height: 60px;
     font-weight: 400;
     font-size: 20px;
-    margin-bottom: 2.5rem;
+    color: var(--second-text-color);
+    margin-bottom: 30px;
 }
 
-#marketplace-button {
-    width: 221px;
+#btn-info {
+    width: 250px;
     height: 62px;
+    border-radius: 5px;
+    padding: 15px 40px;
     background-color: var(--button-color);
-    color: var(--white-color-text);
     font-weight: 700;
     font-size: 24px;
-    text-transform: uppercase;
+    color: var(--white-color-text);
 }
 
-#first-captions {
+#btn-info:hover {
+    cursor: pointer;
+}
+
+#div-headline-img {
     position: absolute;
-    width: 63px;
-    height: 10px;
-    background-color: rgba(255, 255, 255, 0.5);
-    bottom: 1px;
+    width: 697px;
+    height: 619px;
+    padding: 0px 0.5px;
     left: 50%;
 }
 
-#second-captions {
+#container-headline-img {
+    width: 687px;
+    height: 690px;
+    top: -70px;
+    left: 5.5px;
+}
+
+#headline-img {
     position: absolute;
-    width: 63px;
-    height: 10px;
-    background-color: rgba(255, 255, 255, 1);
-    left: 53%;
-    bottom: 1px;
-    margin-left: 10px;
+    width: 696px;
+    height: 499px;
+    bottom: -2px;
+    left: 40px;
+    object-fit: cover;
+    z-index: 1;
+}
+
+#eclipse-one {
+    position: absolute;
+    width: 15.26px;
+    height: 15.26px;
+    top: 480.14px;
+    left: 87.38px;
+}
+
+#eclipse-two {
+    position: absolute;
+    width: 15.26px;
+    height: 15.26px;
+    top: 183.7px;
+    left: 658.46px;
+}
+
+#eclipse-three {
+    position: absolute;
+    width: 31.24px;
+    height: 31.24px;
+    top: 313.75px;
+    left: 635.21px;
+    z-index: 2;
+}
+
+#eclipse-four {
+    position: absolute;
+    width: 79.92px;
+    height: 79.92px;
+    top: 2px;
+    left: 62.67px;
+}
+
+#eclipse-five {
+    position: absolute;
+    width: 499.88px;
+    height: 499.88px;
+    top: 0;
+    left: 122.98px;
 }
